@@ -1,0 +1,59 @@
+INFO:     127.0.0.1:56651 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:57823 - "GET /api/search?q=traffic+management+system&language=&sort=stars&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51753 - "OPTIONS /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:51753 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64402 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61612 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61612 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59800 - "POST /api/chat HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:56813 - "GET /api/search?q=web+development&language=&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:53147 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:53147 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60838 - "POST /api/chat HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:57504 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:58185 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:52630 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:52630 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:52630 - "GET /api/search?q=web+development&language=JavaScript&sort=stars&page=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "OPTIONS /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:53263 - "POST /api/analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51943 - "POST /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:60334 - "POST /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:63220 - "POST /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:58072 - "GET /api/search?q=laptop&language=&sort=stars&page=1 HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:58072 - "POST /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:58072 - "POST /api/analyze HTTP/1.1" 200 OK
+Cache get error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+Cache set error: Error connecting to localhost:6379. Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379).
+INFO:     127.0.0.1:62544 - "GET /api/search?q=laptop&language=&sort=stars&page=1 HTTP/1.1" 200 OK
