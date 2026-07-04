@@ -1,13 +1,10 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "env": {
-    "GEMINI_API_KEY": "@gemini_api_key"
-  },
+  "framework": "vite",
   "functions": {
     "api/**/*.js": {
+      "runtime": "nodejs18.x",
       "memory": 256,
       "maxDuration": 30
     }
