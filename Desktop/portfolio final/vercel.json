@@ -1,9 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "routes": [
-    { "src": "^/index\\.html$", "dest": "/index.html" },
-    { "src": "^/api/(.*)$", "dest": "/api/$1.js" },
-    { "src": "^/(.*)", "dest": "/index.html" }
-  ]
+  "outputDirectory": "dist"
 }
