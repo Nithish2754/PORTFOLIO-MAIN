@@ -30,7 +30,7 @@ function toGeminiContents(messages) {
 /**
  * Main handler function
  */
-module.exports = function handler(req, res) {
+module.exports = (req, res) => {
   // Enable CORS for same-origin requests (Vercel domain)
   // No need for restrictive CORS on Vercel since frontend and API are same-origin
   res.setHeader('Access-Control-Allow-Origin', '*');
