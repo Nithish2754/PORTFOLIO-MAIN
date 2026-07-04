@@ -10,7 +10,7 @@
  * Environment: GEMINI_API_KEY (set in Vercel environment variables)
  */
 
-import https from 'https';
+const https = require('https');
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const MODEL = 'gemini-2.5-flash';
@@ -30,7 +30,7 @@ function toGeminiContents(messages) {
 /**
  * Main handler function
  */
-export default function handler(req, res) {
+module.exports = function handler(req, res) {
   // Enable CORS for same-origin requests (Vercel domain)
   // No need for restrictive CORS on Vercel since frontend and API are same-origin
   res.setHeader('Access-Control-Allow-Origin', '*');
